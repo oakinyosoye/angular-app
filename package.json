@@ -1,0 +1,19 @@
+{
+  "name": "angular-app",
+  "version": "1.0.0",
+  "description": "Business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oakinyosoye/angular-app.git"
+  },
+  "author": "Sogo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oakinyosoye/angular-app/issues"
+  },
+  "homepage": "https://github.com/oakinyosoye/angular-app#readme"
+}
