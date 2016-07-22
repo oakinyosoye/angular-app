@@ -1,0 +1,29 @@
+angular.module('myApp', [])
+  .controller('controller', ['$scope', controller]);
+
+function controller($scope) {
+unction controller($scope) {
+    $scope.data = [
+      {
+      "image": "http://vignette1.wikia.nocookie.net/naruto/images/3/36/Naruto_Uzumaki.png/revision/latest/scale-to-width-down/300?cb=2016010708382",
+      "name": "Naruto",
+      "ability": "rasengan"
+      },
+      {
+      "image": "",
+      "name": "Sasuke",
+      "ability": "Chidori"
+      },
+      {
+      "image": "",
+      "name": "Sakura",
+      "ability": "Healing"
+      },
+      {
+      "image": "",
+      "name": "Kakashi",
+      "ability": "Sharingan"
+      },
+
+    ]
+  }
