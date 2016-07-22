@@ -11,17 +11,14 @@
   <body>
 
     <div class="main" ng-app="myApp">
-  <div class="characters" ng-controller="controller">
-      <p class="search">Search: <input type="text" value="" ng-model="search" /></p><div class="clear"></div>
-    <div class="eachCharacter" ng-repeat="character in data | filter : search">
-      <div class="characterImage">
+  <div class="characterImage">
         <img src="{{ character.image }}" alt="" />
       </div>
       <div class="characterName">
         <p>Name: {{ character.name }}</p>
       </div>
       <div class="alignment">
-        <p>Alignment: {{ character.alignment }}</p>
+        <p>Ability: {{ character.ability }}</p>
       </div>
     </div>
   </div>
