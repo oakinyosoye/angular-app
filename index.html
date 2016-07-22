@@ -1,4 +1,16 @@
-<div class="main" ng-app="myApp">
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Angular Search</title>
+      <link rel="stylesheet" href="css/style.css">
+
+  
+  </head>
+
+  <body>
+
+    <div class="main" ng-app="myApp">
   <div class="characters" ng-controller="controller">
       <p class="search">Search: <input type="text" value="" ng-model="search" /></p><div class="clear"></div>
     <div class="eachCharacter" ng-repeat="character in data | filter : search">
@@ -9,8 +21,17 @@
         <p>Name: {{ character.name }}</p>
       </div>
       <div class="alignment">
-        <p>Ability: {{ character.ability }}</p>
+        <p>Alignment: {{ character.alignment }}</p>
       </div>
     </div>
   </div>
 </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+
+
+
+  </body>
+</html>
