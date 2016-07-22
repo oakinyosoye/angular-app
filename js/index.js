@@ -8,15 +8,15 @@ function controller($scope) {
     "name": "Naruto",
     "ability": "Rasengan"
   }, {
-    "image": "http://orig13.deviantart.net/4580/f/2008/073/1/5/character_select__ken_by_udoncrew.jpg",
+    "image": "http://vignette2.wikia.nocookie.net/naruto/images/7/7f/Sasuke_1.png/revision/latest/scale-to-width-down/300?cb=20151220061752",
     "name": "Sasuke",
     "ability": "Sharingan"
   }, {
-    "image": "http://vignette2.wikia.nocookie.net/streetfighter/images/8/82/Character_Select_Akuma_by_UdonCrew.jpg/revision/latest?cb=20091113012042",
+    "image": "http://vignette2.wikia.nocookie.net/naruto/images/e/ec/Sakura_Boruto_Movie.png/revision/latest/scale-to-width-down/300?cb=20151230020317",
     "name": "Sakura",
     "ability": "Healing"
   }, {
-    "image": "http://vignette2.wikia.nocookie.net/streetfighter/images/0/03/Character_Select_Chun_Li_by_UdonCrew.jpg/revision/latest?cb=20091113143916",
+    "image": "http://i.imgur.com/Mt1AZJ1.png",
     "name": "Kakashi",
     "ability": "Lightning Blade"
   },  ];
